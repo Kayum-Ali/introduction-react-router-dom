@@ -12,7 +12,7 @@ const PostDetails = () => {
         <div>
             <h2>Post id : {id}</h2>
             <p>Post Title: {title}</p>
-            <button onClick={handleGoback}>Go Back</button>
+            <button onClick={handleGoback} className="bg-[tomato] rounded-xl p-3">Go Back</button>
 
         </div>
     );

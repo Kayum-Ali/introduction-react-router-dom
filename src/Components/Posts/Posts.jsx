@@ -7,7 +7,7 @@ const Posts = () => {
 
 
     return (
-        <div>
+        <div className="container">
             <h2>Posts: {posts.length}</h2>
             <div className="users">
                 {

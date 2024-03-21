@@ -19,8 +19,8 @@ const Post = ({ post }) => {
             <h3>Post id: {id}</h3>
             <p>Post Title : {title}</p>
             <p>Body : {body}</p>
-            <Link to={`/post/${id}`}>Post Details</Link>
-            <button onClick={handleClick}>Click to see detail</button>
+            <Link to={`/post/${id}`} className='bg-teal-400 rounded-lg px-4 py-3 mr-2 text-black'>Post Details</Link>
+            <button className='bg-pink-400 rounded-lg  p-2' onClick={handleClick}>Click to see detail</button>
 
         </div>
     );

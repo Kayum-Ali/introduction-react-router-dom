@@ -10,12 +10,12 @@ const User = ({ user }) => {
         borderRadius: '20px'
     }
     return (
-        <div style={userStyle}>
+        <div style={userStyle} className='box-border'>
             <h2>Name: {name}</h2>
             <p>Email: {email}</p>
             <p>Phone: {phone}</p>
             <p>Website: {website}</p>
-            <Link to={`/user/${id}`}>Show Details</Link>
+            <Link to={`/user/${id}`} className='bg-teal-300  text-black p-3 my-2 rounded-xl'>Show Details</Link>
 
 
         </div>
